@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Speech</title>
+</head>
+<body>
+    <div class="wrapper flex justify-center items-center w-full h-screen">
+        <div class="flex flex-col w-6/12 h-3/5 justify-center items-center bg-green-100 rounded-lg p-2 border border-green-300">
+            <p class="p-2">Текст для озвучки: </p>
+            <textarea class="m-2 p-2 bg-green-200 rounded-lg border border-green-300" id="message" cols="30" rows="10" placeholder="Введи текст для озвучки"></textarea>
+            <button id="speak" class="m-2 p-2 rounded-lg bg-purple-100 border border-purple-200">Озвучить</button>
+        </div>
+    </div>
+    <script src="js/main.min.js"></script>
+</body>
+</html>

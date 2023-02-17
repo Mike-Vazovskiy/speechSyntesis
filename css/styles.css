@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+textarea{
+    width: 100%;
+    height: 5rem;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+button{
+    padding: .5rem 1rem;
+    background-color: #008cba;
+    font-size: 1rem;
+    color: #fff;
+}
